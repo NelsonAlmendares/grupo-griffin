@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.main-contet {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 2rem;
+}
+
+.welcome-site {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.welcome-site-orange {
+    color: orange;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.main-img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.imagen-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+
+.form-contact {
+    width: 220px;
+    height: 50px;
+    border-radius: 9px;
+    border: 1px solid #DDDBDA;
+    font-size: 15px !important;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.form-contact:focus {
+    outline: none; /* Quita el outline por defecto */
+    border: 1px solid #606366; /* Cambia el borde */
+    background-color: #f0f8ff; /* Cambia el fondo */
+    box-shadow: 0 0 5px rgba(0.38, 0.39, 0.40); /* Añade sombra */
+    background-color: white;
+}
+
+.btn-contact {
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 15px !important;
+    padding: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.btn-contact:hover {
+    background-color: #F49D55;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.checks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.items-check {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-right: 22px;
+}
+
+.items-check-inside {
+    display: flex;
+}
+
+.text-check {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-right: 3px;
+    color: #959799;
+}

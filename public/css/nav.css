@@ -1,0 +1,60 @@
+.navbar-back {
+    background-color: #F6F6F7;
+}
+
+.name-company {
+    font-weight: 700;
+}
+
+.logo-nav {
+    height: 50px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-display {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+.find-places {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 230px !important;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90px !important;
+}
+
+.nav-align {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
